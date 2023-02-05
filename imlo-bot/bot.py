@@ -5,7 +5,7 @@ from typing import List
 from main import checkWord
 from transliterate import to_cyrillic, to_latin
 
-bot = telebot.TeleBot('5850566514:AAGY9Ow5L43ZthUjKRntFC6iAEBx6GMoeys') #tocken
+bot = telebot.TeleBot('tocken') #tocken
 
 @bot.message_handler(commands=['boshlash'])
 def send_welcome(message):
